@@ -1,0 +1,45 @@
+/*
+    Problem-3: With a single integer as the input, generate the following until a = x [series of numbers as shown in below examples]
+
+  Output: (examples)
+    1) input a = 1, then output : 1
+    2) input a = 2, then output : 1
+    3) input a = 3, then output : 1, 3, 5
+    4) input a = 4, then output : 1, 3, 5
+    5) input a = 5, then output : 1, 3, 5, 7, 9
+    6) input a = 6, then output : 1, 3, 5, 7, 9
+    .
+    .
+    7) input a = x, then output : 1, 3, 5, 7, .......
+ */
+
+import java.util.Scanner;
+
+public class Program_3{
+    public static int[] printSeries(int n){
+        if(n % 2 == 0){
+            n -= 1;
+        }
+        int[] series = new int[n];
+        int index = 0;
+        int num = 1;
+        while(index < n){
+            series[index++] = num;
+            num += 2;
+        }
+        return series;
+    }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter your number: ");
+        int n = input.nextInt();
+
+        int[] result = printSeries(n);
+
+        for(int i=0; i<result.length-1; i++){
+            System.out.print(result[i] + ", ");
+        }
+        System.out.print(result[result.length-1]);
+    }
+}
