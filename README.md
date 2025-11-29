@@ -41,7 +41,7 @@
   4. Program uses `calculate()` to process values  
   5. Output is displayed on screen
 
-<-------------------------------------------------------------------------------------------------------------------------------------------->
+
 # PROGRAM-2:
   This Java program prints a number series containing the first **n odd numbers**, starting from **1**.  
   The user provides an input `n`, and the program outputs the sequence in the format:
@@ -78,7 +78,7 @@
   3. Add next odd number by incrementing **num += 2**
   4. Print sequence with commas using loop
 
-<-------------------------------------------------------------------------------------------------------------------------------------------->
+
 # PROGRAM-3:
   A simple Java program that generates a sequence of odd numbers from **1** up to the nearest odd value of the input number.
 
@@ -109,7 +109,7 @@
   - Generate and print odd numbers starting from 1.
   - Display result in comma-separated form.
 
-<-------------------------------------------------------------------------------------------------------------------------------------------->
+
 # PROGRAM-4:
   This Java program counts how many numbers in a given list are divisible by **each number from 1 to 9**.  
   It returns the result as a dictionary-style output where the key is the divisor, and the value is the count of numbers divisible by it.
