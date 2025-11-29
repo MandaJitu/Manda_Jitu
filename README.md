@@ -9,7 +9,7 @@
   ✔ Multiplication  
   ✔ Division  
   
-  The program takes **two numbers** and an **operator(+, -, *, /)** as input, processes them, and prints the result.
+  The program takes `two numbers` and an `operator(+, -, *, /)` as input, processes them, and prints the result.
   
   ---
   
